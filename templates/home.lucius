@@ -1,0 +1,21 @@
+.fundo{
+    background-image: url(../static/imgs/teste.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+    height: 1000px;
+}
+
+.topo{
+    background-color: #06098c;
+    height: auto;
+    color: #fff;
+    
+}
+
+.botaoh{
+    
+    margin-top: 200px;
+
+}
