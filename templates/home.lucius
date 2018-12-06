@@ -1,21 +1,51 @@
-.fundo{
-    background-image: url(../static/imgs/teste.jpg);
+@font-face {
+    font-family: nfl font;
+    src: url('../static/fonts/nfl-font.eot');
+        url('../static/fonts/nfl-font.woff');
+}
+
+body{
+    background-image: url(../static/imgs/nfl-bkg.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     
     height: 1000px;
+    
+    overflow: hidden;
+    
+}
+
+.fundo-esc{
+    background-color: black;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -99999;
 }
 
 .topo{
-    background-color: #06098c;
+    background-color: #d9d1ff;
     height: auto;
     color: #fff;
     
 }
 
-.botaoh{
+h1 {
+    text-align: right;
+    color: blue;
+    font-family: nfl font;
     
-    margin-top: 200px;
+}
 
+div>h1>span {
+    color: red;
+    margin-right: -10px;
+}
+
+.botaoh{
+    margin-top: 250px;
+    margin-left: 11rem;
+    
 }

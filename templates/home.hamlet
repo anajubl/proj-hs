@@ -1,13 +1,29 @@
+<div class="fundo-esc">
+
 <div class="container-fluid fundo">
-    <div class="row topo">
+    <div class="row  topo">
         <div class="col-lg-6">
             <img src=@{StaticR imgs_logo_png} class="img-responsive">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            BKG COLOR - LOGO NA ESQ - FRASE NA DIREITA
             
-    
-    <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
-            <a class="btn btn-primary botaoh " href="">LOGAR
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <a class="btn btn-primary botaoh" href="">RESULTADOS
+            <h1>
+                <span>N
+                ational 
+                <span>F
+                ootball 
+                <span>L
+                eague
+    
+    <div class="row justify-around">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+       
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <a class="btn btn-lg btn-danger botaoh " href="">LOGAR
+       
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <a class="btn btn-lg btn-danger botaoh" href="">RESULTADOS
+            
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            
+            
+        
