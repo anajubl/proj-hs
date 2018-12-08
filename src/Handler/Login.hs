@@ -3,7 +3,7 @@
 {-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Home where
+module Handler.Login where
 
 import Import
 import Network.HTTP.Types.Status
@@ -11,8 +11,8 @@ import Text.Lucius
 import Text.Julius
 import Prelude (read)
 
-getHomeR :: Handler Html
-getHomeR = do
+getLoginR :: Handler Html
+getLoginR = do
 
     defaultLayout $ do 
         

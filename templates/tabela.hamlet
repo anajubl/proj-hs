@@ -1,0 +1,46 @@
+<div class="fundo-esc">
+
+<div class="container-fluid fundo">
+    <div class="row  topo">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <a href=@{HomeR} class="link-logo">
+                <img src=@{StaticR imgs_logo_png} class="img-responsive">   
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <h1>Tabela de Classificação da NFL
+
+    <table class="table-stripped">
+        <thead>
+            <tr>
+                <th>
+                    TIME
+                <th>
+                    VITÓRIAS
+                <th>
+                    EMPATES
+                <th>
+                    DERROTAS
+                <th>
+                    PONTOS PRÓS
+                <th>
+                    PONTOS CONTRA
+                <th>
+                    SALDO DE PONTOS
+                    
+        <tbody>
+           
+                <tr>
+                    <td>
+                        1
+                    <td>
+                        2
+                    <td>
+                       3
+                    <td>
+                       4
+                    <td>
+                       5
+                    <td>
+                       6
+                    <td>
+                       7

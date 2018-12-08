@@ -1,11 +1,17 @@
+li.nav-item {
+    text-decoration: none;
+    
+}
+
+/* HOME */
 @font-face {
     font-family: nfl font;
-    src: url('../static/fonts/nfl-font.eot');
-        url('../static/fonts/nfl-font.woff');
+    src: url('../fonts/nfl-font.eot')
+        url('../fonts/nfl-font.woff');
 }
 
 body{
-    background-image: url(../static/imgs/nfl-bkg.jpg);
+    background-image: url(/imgs/nfl-bkg.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -58,3 +64,30 @@ div>h1>span {
 a.botaoh{
     text-decoration:none;
 }
+/* FIM HOME */
+
+/* RESULTADOS */
+table {
+    border: 2px solid;
+    border-collapse: separate;
+    margin: 20px 30px;
+}
+
+th {
+    padding: 10px;
+}
+
+.versus {
+    text-align: center;
+}
+/* FIM RESULTADOS */
+
+/* TABELA  */
+
+/* FIM TABELA */
+
+
+/*  */
+
+/* FIM */
+

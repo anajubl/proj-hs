@@ -1,5 +1,1 @@
-<div class="container-fluid fundo">
-    <div class="row  topo">
-        <div class="col-lg-6">
-            <img src=@{StaticR imgs_logo_png} class="img-responsive">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+

@@ -3,21 +3,20 @@
 {-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Home where
-
+{-# LANGUAGE QuasiQuotes #-}
+module Handler.Resultados where
 import Import
 import Network.HTTP.Types.Status
 import Text.Lucius
 import Text.Julius
 import Prelude (read)
 
-getHomeR :: Handler Html
-getHomeR = do
+getResultadosR :: Handler Html
+getResultadosR = do
 
     defaultLayout $ do 
         
         addStylesheet $ StaticR css_bootstrap_css
-        $(whamletFile "templates/home.hamlet")
-        toWidget $(luciusFile "templates/home.lucius")
-        
-        
+        $(whamletFile "templates/resultados.hamlet")
+        toWidget $(luciusFile "templates/resultados.lucius")
+

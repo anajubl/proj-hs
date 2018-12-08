@@ -3,7 +3,8 @@
 <div class="container-fluid fundo">
     <div class="row  topo">
         <div class="col-lg-6">
-            <img src=@{StaticR imgs_logo_png} class="img-responsive">
+            <a href=@{HomeR} class="link-logo">
+                <img src=@{StaticR imgs_logo_png} class="img-responsive">
             
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
             <h1>
@@ -18,10 +19,10 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
        
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a class="btn btn-lg btn-danger botaoh " href="">LOGAR
+            <a  class="btn btn-lg btn-danger botaoh" >LOGAR
        
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a class="btn btn-lg btn-danger botaoh" href="">RESULTADOS
+            <a href=@{ResultadosR} class="btn btn-lg btn-danger botaoh" >RESULTADOS
             
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             

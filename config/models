@@ -1,1 +1,56 @@
+Usuario
+    nome        Text
+    email       Text 
+    senha       Text 
+    deriving    Show Read
 
+
+
+Time Json
+    nome   Text
+    logo   Text
+    deriving    Show Read
+
+
+Campeonato
+    data Text
+    hora Text
+    deriving    Show Read
+    
+    
+Time_campeonato
+    campeonatoid CampeonatoId
+    timeid       TimeId
+    vitorias    Int
+    derrotas    Int
+    empates     Int
+    pontos_pro  Int
+    pontos_contra  Int
+    saldo       Int
+    deriving    Show Read
+    
+Jogo
+    time_a     TimeId
+    time_b      TimeId
+    data_inicio  Text
+    hora_inicio  Text
+    data_fim     Text
+    hora_fim    Text
+    vencedor   Int
+    perdedor   Int
+    pontos_vencedor  Int
+    pontos_perdedor  Int
+    finalizado    Int
+    deriving    Show Read Eq
+    
+    
+    
+Ponto
+    time_fez  Int
+    time_tomou  Int
+    descricao Text
+    quantidade Int
+    minutagem   Text
+    deriving    Show Read
+    
+    

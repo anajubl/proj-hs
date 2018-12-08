@@ -1,0 +1,48 @@
+<div class="fundo-esc">
+
+<div class="container-fluid fundo">
+    <div class="row  topo">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <a href=@{HomeR} class="link-logo">
+                <img src=@{StaticR imgs_logo_png} class="img-responsive">   
+                
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <h1>Resultados dos Jogos
+    
+    <h2>Última Rodada 
+
+    <div class="row">
+        <div class="col-6">
+            <table class="table-stripped">
+                <thead>
+                    <tr>
+                        <th>
+                            IMGTIME 1
+                        <th>
+                            PTS.TIME1
+                        <th class="versus">
+                            x
+                        <th>
+                            IMGTIME2
+                        <th>
+                            PTS.TIME2
+                
+                <tbody>
+                        <tr>
+                            <td>
+                                <hr>
+                        <tr>
+                            <td>
+                            
+                            <td>
+                                
+                            <td>
+                                Detalhes da partida <span class="glyphicon glyphicon-chevron-down">
+                            <td>
+                            
+                            <td>
+                            
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+        
+        
+        
