@@ -17,7 +17,7 @@ getLoginR = do
     defaultLayout $ do 
         
         addStylesheet $ StaticR css_bootstrap_css
-        $(whamletFile "templates/home.hamlet")
-        toWidget $(luciusFile "templates/home.lucius")
+        $(whamletFile "templates/login.hamlet")
+        toWidget $(luciusFile "templates/login.lucius")
         
         
