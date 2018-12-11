@@ -13,7 +13,7 @@ import Prelude (read)
 
 getTabelaR :: Handler Html
 getTabelaR = do
-
+    times <- runDB $ selectList [] [Desc  Time_campeonatoVitorias]
     defaultLayout $ do 
         
         addStylesheet $ StaticR css_bootstrap_css

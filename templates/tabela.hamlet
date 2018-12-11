@@ -28,12 +28,12 @@
                     SALDO DE PONTOS
                     
         <tbody>
-           
+           $forall (Entity timeid time) <- times
                 <tr>
                     <td>
-                        1
-                    <td>
-                        2
+                       #{time_campeonatoDerrotas time}
+                    <td>s
+                        #{time_campeonatoVitorias time}
                     <td>
                        3
                     <td>
