@@ -11,13 +11,7 @@ import Text.Lucius
 import Text.Julius
 import Prelude (read)
 
-getLoginR :: Handler Html
-getLoginR = do
+    
 
-    defaultLayout $ do 
-        
-        addStylesheet $ StaticR css_bootstrap_css
-        $(whamletFile "templates/login.hamlet")
-        toWidget $(luciusFile "templates/login.lucius")
-        
+
         

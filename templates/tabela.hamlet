@@ -11,7 +11,7 @@
             
             <h2>
 
-    <table class="table-stripped">
+    <table class="table table-striped table-responsive">
         <thead>
             <tr>
                 <th>
@@ -30,19 +30,20 @@
                     SALDO DE PONTOS
                     
         <tbody>
-             $forall (Entity _ time) <- times
+             
+             $forall (Entity _ timec, Entity _ time) <- timesinfo
                 <tr>
-                    <td>
+                    <td class="timen">
                         #{timeNome time}
                     <td>
-                      
+                        #{time_campeonatoVitorias timec}
                     <td>
-                       3
+                        #{time_campeonatoEmpates timec}
                     <td>
-                       4
+                        #{time_campeonatoDerrotas timec} 
                     <td>
-                       5
+                        #{time_campeonatoPontos_pro timec} 
                     <td>
-                       6
+                        #{time_campeonatoPontos_contra timec}
                     <td>
-                       7
+                        #{time_campeonatoSaldo timec} 
