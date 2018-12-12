@@ -8,6 +8,8 @@
 
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
             <h1>Tabela de Classificação da NFL
+            
+            <h2>
 
     <table class="table-stripped">
         <thead>
@@ -28,12 +30,12 @@
                     SALDO DE PONTOS
                     
         <tbody>
-           $forall (Entity timeid time) <- times
+             $forall (Entity _ time) <- times
                 <tr>
                     <td>
-                       #{time_campeonatoDerrotas time}
-                    <td>s
-                        #{time_campeonatoVitorias time}
+                        #{timeNome time}
+                    <td>
+                      
                     <td>
                        3
                     <td>

@@ -7,4 +7,4 @@
 
 /resultados ResultadosR GET 
 
-/tabela     TabelaR GET
+/resultados/#CampeonatoId/tabela     TabelaR GET
