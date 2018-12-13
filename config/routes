@@ -6,5 +6,5 @@
 / HomeR GET 
 
 /resultados ResultadosR GET 
-
+/login               LoginR   GET 
 /resultados/#CampeonatoId/tabela     TabelaR GET

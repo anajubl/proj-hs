@@ -10,13 +10,18 @@ import Network.HTTP.Types.Status
 import Text.Lucius
 import Text.Julius
 import Prelude (read)
+import Database.Persist.Sql (toSqlKey)
 
 getResultadosR :: Handler Html
 getResultadosR = do
 
     defaultLayout $ do 
         
+        
         addStylesheet $ StaticR css_bootstrap_css
         $(whamletFile "templates/resultados.hamlet")
         toWidget $(luciusFile "templates/resultados.lucius")
+
+
+        
 

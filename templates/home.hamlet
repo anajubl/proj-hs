@@ -19,7 +19,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
        
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a  class="btn btn-lg btn-danger botaoh" >LOGAR
+            <a  href=@{LoginR} class="btn btn-lg btn-danger botaoh" >LOGAR
        
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <a href=@{ResultadosR} class="btn btn-lg btn-danger botaoh" >RESULTADOS
