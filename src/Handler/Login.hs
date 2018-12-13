@@ -19,7 +19,7 @@ formLogin = renderBootstrap $ (,)
 getLoginR :: Handler Html
 getLoginR = do 
     (widgetForm, enctype) <- generateFormPost formLogin
-    msg <- getMessage
+   
     defaultLayout $ do 
         addStylesheet $ StaticR css_bootstrap_css
         $(whamletFile "templates/login.hamlet")

@@ -1,0 +1,39 @@
+<div class="fundo-esc">
+
+<div class="container-fluid fundo">
+    <div class="row  topo">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <a href=@{HomeR} class="link-logo">
+                <img src=@{StaticR imgs_logo_png} class="img-responsive">   
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <h1>Tabela de Classificação da NFL
+            
+            <h2>
+
+    <table class="table table-striped table-responsive">
+        <thead>
+            <tr>
+                <th>
+                    NOME
+                <th>
+                    POSIÇÃO
+                <th>
+                    N°
+                <th>
+                    UNIVERSIDADE
+            
+                    
+        <tbody>
+             
+             $forall (Entity _ elencos) <- elenco
+                <tr>
+                    <td class="timen">
+                        #{jogadorNome elencos}
+                    <td>
+                        
+                    <td>
+                        
+                    <td>
+                        
+                   

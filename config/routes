@@ -17,3 +17,9 @@
 /noticiaf                   NoticiafR GET
 
 /noticia/#NoticiaId/ler LerR    GET
+
+/jogador                        JogadorR  POST
+
+
+
+/noticia/#TimeId/jogador JogadoresR    GET
