@@ -26,6 +26,14 @@ listaTimes = do
 
 
 
+getJogadorR :: Handler Html
+getJogadorR  = do
+
+    (widgetForm, enctype) <- generateFormPost formJogador
+    defaultLayout $ do 
+        addStylesheet $ StaticR css_bootstrap_css
+        $(whamletFile "templates/jogador.hamlet")
+      
         
 getJogadoresR :: TimeId -> Handler Html
 getJogadoresR timeid = do

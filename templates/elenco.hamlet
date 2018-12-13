@@ -31,9 +31,9 @@
                     <td class="timen">
                         #{jogadorNome elencos}
                     <td>
-                        
+                         #{jogadorPosicao elencos}
+                    <td>
+                         #{jogadorNumero elencos}
                     <td>
                         
-                    <td>
-                        
-                   
+                         #{jogadorCollege elencos}
