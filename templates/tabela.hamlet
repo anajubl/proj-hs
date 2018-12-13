@@ -26,15 +26,15 @@
                     PONTOS PRÓS
                 <th>
                     PONTOS CONTRA
-                <th>
-                    SALDO DE PONTOS
+                
                     
         <tbody>
              
-             $forall (Entity _ timec, Entity _ time) <- timesinfo
+             $forall (Entity _ timec, Entity timeid time) <- timesinfo
                 <tr>
                     <td class="timen">
-                        #{timeNome time}
+                        <a href=@{JogadoresR timeid}>
+                            #{timeNome time}
                     <td>
                         #{time_campeonatoVitorias timec}
                     <td>
@@ -45,5 +45,4 @@
                         #{time_campeonatoPontos_pro timec} 
                     <td>
                         #{time_campeonatoPontos_contra timec}
-                    <td>
-                        #{time_campeonatoSaldo timec} 
+                    

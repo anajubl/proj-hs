@@ -1,5 +1,21 @@
+<div class="fundo-esc">
 
+<div class="container-fluid fundo">
+    <div class="row  topo">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a href=@{HomeR} class="link-logo">
+                <img src=@{StaticR imgs_logo_png} class="img-responsive">
+            
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">    
+            <h1>
+                Inserir Jogador
 
-<form action=@{JogadorR} method=post enctype=#{enctype}>
-    ^{widgetForm}
-    <input type="submit" value="submit">
+    <div class="row">    
+        <div class="col-lg-4">
+                <form class="formu" action=@{JogadorR} method=post enctype=#{enctype}>
+                    ^{widgetForm}
+                    <input type="submit" value="OK">
+            
+            <div class="col-lg-4">

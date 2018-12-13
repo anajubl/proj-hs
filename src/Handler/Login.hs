@@ -37,7 +37,7 @@ postLoginR = do
                 Just (Entity usrid usuario) -> do 
                     setSession "_USR" (pack $ show usuario)
                     
-                    redirect HomeR
+                    redirect AdminR
                 Nothing -> do 
                     
                     redirect LoginR

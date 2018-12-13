@@ -25,6 +25,16 @@ h1 {
 }
 
 
+.notic {
+    border: 2px solid;
+    margin: 20px 30px;
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
 
 
 

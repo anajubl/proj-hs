@@ -33,7 +33,7 @@ getJogadorR  = do
     defaultLayout $ do 
         addStylesheet $ StaticR css_bootstrap_css
         $(whamletFile "templates/jogador.hamlet")
-      
+        toWidget $(luciusFile "templates/jogador.lucius")
         
 getJogadoresR :: TimeId -> Handler Html
 getJogadoresR timeid = do

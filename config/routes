@@ -20,6 +20,6 @@
 
 /jogador                        JogadorR GET POST
 
+/admin      AdminR  GET
 
-
-/noticia/#TimeId/jogador JogadoresR    GET
+/tabela/#TimeId/jogador JogadoresR    GET
