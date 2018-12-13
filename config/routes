@@ -5,13 +5,15 @@
 
 / HomeR GET 
 
-
+/arquivo              ArquivoR     GET POST
 
 
 /login               LoginR   GET POST
 
 /home/#CampeonatoId/tabela    TabelaR GET
 
-/noticia                        NoticiaR GET
+/noticia                        NoticiaR GET POST
+
+/noticiaf                   NoticiafR GET
 
 /noticia/#NoticiaId/ler LerR    GET

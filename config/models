@@ -32,14 +32,13 @@ Jogador json
     deriving    Show Read
 
 Noticia json
-    usuario UsuarioId
     time TimeId
     titulo Text
     descricao Text
     texto Text
     deriving    Show Read
-    
-    
+
+
 Campeonato json 
     data_inicio Text
     data_fim    Text

@@ -42,6 +42,7 @@ import Handler.Noticia
 import Handler.Tabela
 import Handler.Ler
 import Handler.Login
+import Handler.Arquivo
 
 
 -- This line actually creates our YesodDispatch instance. It is the second half
