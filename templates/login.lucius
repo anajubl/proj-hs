@@ -4,18 +4,25 @@
         url('../static/fonts/nfl-font.woff');
 }
 
-body{
-    height: 1000px;
 
+body {
+    background-image: url(../static/imgs/nfl-bkg.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+    height: 1000px;
+    
+    overflow: hidden;
 }
 
-
 .topo{
-    background-color: #d9d1ff;
+    background-color: #FCFCFC;
+    opacity: 0.8;
     height: auto;
     color: #fff;
 }
-
+ 
 
 h1 {
     text-align: right;
@@ -23,3 +30,18 @@ h1 {
     font-family: nfl font;
     
 }
+
+.fundo-esc{
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -99999;
+}
+
+.formu {
+    background-color: #EBE4E4;
+}
+   
+ 

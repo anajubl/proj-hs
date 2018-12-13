@@ -2,11 +2,13 @@
 
 <div class="container-fluid fundo">
     <div class="row  topo">
-        <div class="col-lg-6">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <a href=@{HomeR} class="link-logo">
                 <img src=@{StaticR imgs_logo_png} class="img-responsive">
             
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">    
             <h1>
                 <span>N
                 ational 
@@ -15,12 +17,17 @@
                 <span>L
                 eague
     
+    <div class="row">
+        <div class="col-12">
+            <br>
+                <h2>Fique por dentro da NFL!
+    
     <div class="row justify-around">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-       
+               
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a  href=@{LoginR} class="btn btn-lg btn-danger botaoh" >LOGAR
-       
+            <a  href=@{LoginR} class="btn btn-lg btn-danger botaoh" >Login
+            
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             $forall(Entity campeonatoid  camps) <- camp
                 <a href=@{TabelaR campeonatoid} class="btn btn-lg btn-danger botaoh" >Classificação
