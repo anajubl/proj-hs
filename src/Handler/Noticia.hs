@@ -3,25 +3,23 @@
 {-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
-{-# LANGUAGE QuasiQuotes #-}
-module Handler.Resultados where
+module Handler.Noticia where
+
 import Import
-import Network.HTTP.Types.Status
+
 import Text.Lucius
 import Text.Julius
 import Prelude (read)
-import Database.Persist.Sql (toSqlKey)
 
-getResultadosR :: Handler Html
-getResultadosR = do
+getNoticiaR :: Handler Html
+getNoticiaR = do
+    
+    noticias <- runDB $ selectList [] [Asc NoticiaId]
 
     defaultLayout $ do 
         
-        
         addStylesheet $ StaticR css_bootstrap_css
-        $(whamletFile "templates/resultados.hamlet")
-        toWidget $(luciusFile "templates/resultados.lucius")
-
-
+        $(whamletFile "templates/noticia.hamlet")
+        toWidget $(luciusFile "templates/noticia.lucius")
         
-
+        

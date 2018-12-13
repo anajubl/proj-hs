@@ -13,6 +13,8 @@ import Prelude (read)
 
 getHomeR :: Handler Html
 getHomeR = do
+    
+    camp <- runDB $ selectList [] [Asc CampeonatoData_inicio]
 
     defaultLayout $ do 
         

@@ -20,12 +20,11 @@ data App = App
     }
 
 
-
 mkYesodData "App" $(parseRoutesFile "config/routes")
 type Form a = Html -> MForm Handler (FormResult a, Widget)
 instance Yesod App where
     makeLogger = return . appLogger
-    authRoute _ = Just LoginR
+    
 instance YesodPersist App where
     type YesodPersistBackend App = SqlBackend
     runDB action = do
@@ -34,6 +33,7 @@ instance YesodPersist App where
 
 instance RenderMessage App FormMessage where
     renderMessage _ _ = defaultFormMessage
+
 
 instance HasHttpManager App where
     getHttpManager = appHttpManager

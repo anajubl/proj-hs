@@ -5,6 +5,11 @@
 
 / HomeR GET 
 
-/resultados ResultadosR GET 
-/login               LoginR   GET 
-/resultados/#CampeonatoId/tabela     TabelaR GET
+
+
+
+/login               LoginR   GET POST
+
+/home/#CampeonatoId/tabela    TabelaR GET
+
+/noticia                        NoticiaR GET

@@ -11,46 +11,36 @@ Time json
     logo   Text Maybe
     deriving    Show Read
 
+Time_campeonato json
+    campeonatoid CampeonatoId
+    timeid       TimeId
+    vitorias    Int 
+    derrotas    Int 
+    empates     Int 
+    pontos_pro  Int 
+    pontos_contra Int 
+    saldo       Int 
+    deriving    Show Read
 
+
+Jogador json
+    time TimeId
+    nome Text
+    posicao Text
+    numero Int
+    college Text
+    deriving    Show Read
+
+Noticia json
+    usuario UsuarioId
+    time TimeId
+    titulo Text
+    descricao Text
+    texto Text
+    deriving    Show Read
+    
+    
 Campeonato json 
     data_inicio Text
     data_fim    Text
     deriving    Show Read
-    
-    
-Time_campeonato json
-    campeonatoid CampeonatoId
-    timeid       TimeId
-    vitorias    Int Default=0
-    derrotas    Int Default=0
-    empates     Int Default=0
-    pontos_pro  Int Default=0
-    pontos_contra  Int Default=0
-    saldo       Int Default=0
-    deriving    Show Read
-    
-Jogo json
-    time_a     TimeId
-    time_b      TimeId
-    data_inicio  Text
-    hora_inicio  Text
-    data_fim     Text Maybe
-    hora_fim    Text Maybe
-    vencedor   Int Maybe
-    perdedor   Int Maybe
-    pontos_vencedor  Int Default=0
-    pontos_perdedor  Int Default=0
-    finalizado    Int Default=0
-    deriving    Show Read Eq
-    
-    
-    
-Ponto json
-    time_fez  Int
-    time_tomou  Int
-    descricao Text
-    quantidade Int
-    minutagem   Text
-    deriving    Show Read
-    
-    
