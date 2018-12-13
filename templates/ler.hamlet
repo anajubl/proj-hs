@@ -9,10 +9,10 @@
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
             <h1>Noticias
             
-         $forall(Entity noticiaid  noticia) <- noticias
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
-                <h2>
-                    #{noticiaTitulo noticia}
-                <p>
-                    #{noticiaDescricao noticia}
-                <a href=@{LerR noticiaid} class="btn btn-lg btn-danger " >
+    $forall(Entity _  noticia) <- noticias
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <h2>
+                #{noticiaTitulo noticia}
+            <p>
+                #{noticiaTexto noticia}
+                

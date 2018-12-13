@@ -13,3 +13,5 @@
 /home/#CampeonatoId/tabela    TabelaR GET
 
 /noticia                        NoticiaR GET
+
+/noticia/#NoticiaId/ler LerR    GET
